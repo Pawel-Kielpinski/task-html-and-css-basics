@@ -25,7 +25,7 @@
     <header class="main-header">
       <div class="navbar">
         <div class="logo">
-          <a class="logo__link logo__link--hover" href="./index.html">
+          <a class="logo__link" href="./index.html">
             <img
               class="logo__image"
               src="./images/logo.svg"
@@ -36,20 +36,20 @@
 
         <nav class="menu">
           <ul class="menu__item-list">
-            <li class="menu__item menu__item--hover">
+            <li class="menu__item">
               <a class="menu__link">The Team</a>
             </li>
-            <li class="menu__item menu__item--hover">
+            <li class="menu__item">
               <a class="menu__link">Pricing</a>
             </li>
-            <li class="menu__item menu__item--hover">
+            <li class="menu__item">
               <a class="menu__link">Features</a>
             </li>
           </ul>
         </nav>
       </div>
 
-      <section class="section section-1">
+      <article class="section title-section">
         <div class="title-container-left">
           <h1 class="title-container-left__title">
             Beautiful Free Nova<br />template
@@ -57,15 +57,12 @@
           <p class="title-container-left__description">
             A top notch premium quality<br />template for your next web<br />project.
           </p>
-          <button
-            class="title-container-left__button title-container-left__button--hover"
-            type="button"
-          >
+          <button class="title-container-left__button" type="button">
             Download FREE!
           </button>
         </div>
 
-        <div class="title-container-right">
+        <figure class="title-container-right">
           <div class="ad-next-gen">
             <div class="ad-next-gen__background">
               <img
@@ -75,19 +72,20 @@
               />
             </div>
           </div>
-        </div>
-      </section>
+        </figure>
+      </article>
     </header>
 
     <main class="main-content">
-      <section class="section-2__background">
-        <div class="section section-2">
-          <div class="nova-features-header">
+      <section class="features-section__background">
+        <div class="section features-section">
+          <header class="nova-features-header">
             <h1 class="nova-features-header__title">FEATURES</h1>
-          </div>
+          </header>
 
           <div class="advantages">
-            <div class="advantages-box">
+            <!-- NIESTETY TUTAJ NIE WIEM, JAK MAM ZASTOSOWAĆ LISTĘ NIENUMEROWANĄ -->
+            <aside class="advantages-box">
               <div class="advantages-box__icon">
                 <img
                   class="advantages-box__icon-svg"
@@ -103,9 +101,9 @@
                   and<br />desktop.
                 </p>
               </div>
-            </div>
+            </aside>
 
-            <div class="advantages-box">
+            <aside class="advantages-box">
               <div class="advantages-box__icon">
                 <img
                   class="advantages-box__icon-svg"
@@ -121,9 +119,9 @@
                   suit your<br />needs.
                 </p>
               </div>
-            </div>
+            </aside>
 
-            <div class="advantages-box">
+            <aside class="advantages-box">
               <div class="advantages-box__icon">
                 <img
                   class="advantages-box__icon-svg"
@@ -140,13 +138,13 @@
                   Trendy and fresh design, fits<br />any website.
                 </p>
               </div>
-            </div>
+            </aside>
           </div>
         </div>
       </section>
 
-      <section class="section-3__background">
-        <div class="section section-3">
+      <aside>
+        <div class="section recommendation-section">
           <div class="recommendation">
             <img
               class="recommendation__image"
@@ -155,19 +153,19 @@
             />
           </div>
         </div>
-      </section>
+      </aside>
 
-      <section class="section-4__background">
-        <div class="section-4">
-          <div class="imac-monitor">
+      <section>
+        <div class="simple-and-beautiful-section">
+          <figure class="imac-monitor">
             <img
               class="imac-monitor__image"
               src="./images/imac.png"
               alt="Apple monitor logo"
             />
-          </div>
+          </figure>
 
-          <div class="nova-theme">
+          <article class="nova-theme">
             <h1 class="nova-theme__title">SIMPLE&nbsp;AND&nbsp;BEAUTIFUL</h1>
             <p class="nova-theme_description">
               Use Nova theme for your next web project. It is<br />completely
@@ -175,13 +173,13 @@
               your needs. Nova Theme is Free for<br />any kind of use, presonal
               and commercial. Have fun<br />and good luck!
             </p>
-          </div>
+          </article>
         </div>
       </section>
 
-      <section class="section-5__background">
-        <div class="section section-5">
-          <div class="prices-header">
+      <section>
+        <div class="section pricing-plan-section">
+          <header class="prices-header">
             <h1 class="prices-header__title">
               CHOOSE&nbsp;YOUR&nbsp;PRICING&nbsp;PLAN
             </h1>
@@ -189,75 +187,78 @@
             <p class="prices-header__subtitle">
               Pick any of our super affordable pricing plans
             </p>
-          </div>
+          </header>
 
-          <div class="price-offers">
-            <div class="price-offer">
+          <ul class="price-offers">
+            <li class="price-offer">
               <h2 class="price-offer__variant">BASIC</h2>
               <div class="price-offer__price">
                 <p class="price-offer__price-value">$15</p>
                 <p class="price-offer__price-months-period">per month</p>
               </div>
 
-              <p class="price-offer__benefits">
-                Up to 7 Projects<br />
-                2 Additional Developers
-              </p>
-              <a class="price-offer__button price-offer__button--hover"
-                >Get Started</a
-              >
-            </div>
+              <ul class="price-offer__benefits">
+                <li class="price-offer__benefits-li">Up to 7 Projects</li>
+                <li class="price-offer__benefits-li">
+                  2 Additional Developers
+                </li>
+              </ul>
 
-            <div
-              class="price-offer price-offer--hover price-offer--larger-tile"
-            >
+              <a class="price-offer__button">Get Started</a>
+            </li>
+
+            <li class="price-offer price-offer--larger-tile">
               <h2 class="price-offer__variant">AGENCY</h2>
               <div class="price-offer__price">
                 <p class="price-offer__price-value">$55</p>
                 <p class="price-offer__price-months-period">per month</p>
               </div>
 
-              <p class="price-offer__benefits">
-                Up to 25 Projects<br />
-                2 Additional Developers<br />
-                Unlimited Support
-              </p>
-              <a
-                class="price-offer__button price-offer__button--hover price-offer__button--central"
+              <ul class="price-offer__benefits">
+                <li class="price-offer__benefits-li">Up to 25 Projects</li>
+                <li class="price-offer__benefits-li">
+                  2 Additional Developers
+                </li>
+                <li class="price-offer__benefits-li">Unlimited Support</li>
+              </ul>
+
+              <a class="price-offer__button price-offer__button--central"
                 >Get Started</a
               >
-            </div>
+            </li>
 
-            <div class="price-offer">
+            <li class="price-offer">
               <h2 class="price-offer__variant">PRO</h2>
               <div class="price-offer__price">
                 <p class="price-offer__price-value">$75</p>
                 <p class="price-offer__price-months-period">per month</p>
               </div>
 
-              <p class="price-offer__benefits">
-                Up to 25 Projects<br />
-                2 Additional Developers<br />
-                Unlimited Support<br />
-                1.5GB Disk Space
-              </p>
-              <a
-                class="price-offer__button price-offer__button--hover price-offer__button--right"
+              <ul class="price-offer__benefits">
+                <li class="price-offer__benefits-li">Up to 25 Projects</li>
+                <li class="price-offer__benefits-li">
+                  2 Additional Developers
+                </li>
+                <li class="price-offer__benefits-li">Unlimited Support</li>
+                <li class="price-offer__benefits-li">1.5GB Disk Space</li>
+              </ul>
+
+              <a class="price-offer__button price-offer__button--right"
                 >Get Started</a
               >
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </section>
 
-      <section class="section-6__background">
-        <div class="section section-6">
-          <div class="team-header">
+      <section class="team-section__background">
+        <div class="section team-section">
+          <header class="team-header">
             <h1 class="team-header__title">THE TEAM</h1>
-          </div>
+          </header>
 
-          <div class="team">
-            <div class="employee employee--larger-tile">
+          <ul class="team">
+            <li class="employee employee--larger-tile">
               <img
                 class="employee__photo"
                 src="./images/cto.png"
@@ -272,22 +273,22 @@
               <div class="social-media">
                 <a class="social-media__link" href="https://twitter.com">
                   <img
-                    class="social-media__twitter-icon social-media__twitter-icon--hover"
+                    class="social-media__twitter-icon"
                     src="./images/twitter.svg"
                     alt="Twitter icon."
                   />
                 </a>
                 <a class="social-media__link" href="https://www.facebook.com/">
                   <img
-                    class="social-media__facebook-icon social-media__facebook-icon--hover"
+                    class="social-media__facebook-icon"
                     src="./images/facebook.svg"
                     alt="Facebook icon."
                   />
                 </a>
               </div>
-            </div>
+            </li>
 
-            <div class="employee">
+            <li class="employee">
               <img
                 class="employee__photo"
                 src="./images/ceo.png"
@@ -302,7 +303,7 @@
               <div class="social-media">
                 <a class="social-media__link" href="https://twitter.com">
                   <img
-                    class="social-media__twitter-icon social-media__twitter-icon--hover"
+                    class="social-media__twitter-icon"
                     src="./images/twitter.svg"
                     alt="Twitter icon."
                   />
@@ -310,15 +311,15 @@
 
                 <a class="social-media__link" href="https://www.facebook.com/">
                   <img
-                    class="social-media__facebook-icon social-media__facebook-icon--hover"
+                    class="social-media__facebook-icon"
                     src="./images/facebook.svg"
                     alt="Facebook icon."
                   />
                 </a>
               </div>
-            </div>
+            </li>
 
-            <div class="employee">
+            <li class="employee">
               <img
                 class="employee__photo"
                 src="./images/cfo.png"
@@ -333,21 +334,21 @@
               <div class="social-media">
                 <a class="social-media__link" href="https://twitter.com">
                   <img
-                    class="social-media__twitter-icon social-media__twitter-icon--hover"
+                    class="social-media__twitter-icon"
                     src="./images/twitter.svg"
                     alt="Twitter icon."
                   />
                 </a>
                 <a class="social-media__link" href="https://www.facebook.com/">
                   <img
-                    class="social-media__facebook-icon social-media__facebook-icon--hover"
+                    class="social-media__facebook-icon"
                     src="./images/facebook.svg"
                     alt="Facebook icon."
                   />
                 </a>
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>

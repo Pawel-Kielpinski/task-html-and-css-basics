@@ -55,7 +55,7 @@
   font-display: swap;
 }
 
-/* ============================================================= */
+/* ============================================================== */
 body {
   width: 100%;
   font-family: "montserrat";
@@ -91,7 +91,7 @@ body {
   padding: 18px 0 0 0;
 }
 
-.logo__link--hover:hover {
+.logo__link:hover {
   filter: invert(100%) sepia(52%) saturate(265%) hue-rotate(90deg)
     brightness(108%) contrast(96%);
 }
@@ -117,12 +117,13 @@ body {
   cursor: pointer;
 }
 
-.menu__item--hover:hover {
+.menu__item:hover {
   color: #f89234;
 }
 
-/* ===========================SECTION 1============================ */
-.section-1 {
+/* ==========================='TITLE' SECTION============================ */
+
+.title-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -161,7 +162,7 @@ body {
   cursor: pointer;
 }
 
-.title-container-left__button--hover:hover {
+.title-container-left__button:hover {
   background-color: rgb(53, 138, 53);
 }
 
@@ -176,28 +177,21 @@ body {
   padding-top: 1%;
 }
 
-.ad-next-gen__background {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 569px;
-  min-height: 478px;
-  padding-top: 2%;
-  background-color: #ffffff;
-  border-radius: 4%;
-}
-
 .ad-next-gen__image {
-  max-width: 95%;
-  border-radius: 1%;
+  max-width: 88%;
+  border-radius: 5%;
+  background-color: #ffffff;
+  border: 20px solid #ffffff;
+  padding: 0 0 63px 0;
 }
 
-/* ===========================SECTION 2============================ */
-.section-2__background {
+/* ==========================='FEATURES' SECTION============================ */
+
+.features-section__background {
   background-color: black;
 }
 
-.section-2 {
+.features-section {
   display: flex;
   flex-direction: column;
   color: #ffffff;
@@ -268,8 +262,9 @@ body {
   font-weight: 400;
 }
 
-/* ===========================SECTION 3============================ */
-.section-3 {
+/* ==========================='RECOMMENDATION' SECTION============================ */
+
+.recommendation-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,8 +272,9 @@ body {
   max-width: 100%;
 }
 
-/* ===========================SECTION 4============================ */
-.section-4 {
+/* ==========================='SIMPLE AND BEAUTIFUL' SECTION============================ */
+
+.simple-and-beautiful-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -322,8 +318,9 @@ body {
   margin: 44px 0 0 42px;
 }
 
-/* ===========================SECTION 5============================ */
-.section-5 {
+/* ==========================='PRICES' SECTION============================ */
+
+.pricing-plan-section {
   display: flex;
   flex-direction: column;
   background-color: #f8f9f9;
@@ -376,7 +373,7 @@ body {
   border-radius: 2%;
 }
 
-.price-offer--hover:hover {
+.price-offer--larger-tile:hover {
   box-shadow: 0 0 20px 10px #ccc;
 }
 
@@ -410,12 +407,15 @@ body {
 
 .price-offer__benefits {
   font-size: 14px;
-  font-weight: 600;
   text-align: center;
   display: block;
   width: 100%;
   margin: 31px 0 0 0;
   line-height: 18px;
+}
+
+.price-offer__benefits-li {
+  font-weight: 600;
 }
 
 .price-offer__button {
@@ -434,7 +434,7 @@ body {
   margin: 96px 0 0 0;
 }
 
-.price-offer__button--hover:hover {
+.price-offer__button:hover {
   background-color: #0aa5eb;
 }
 
@@ -446,11 +446,13 @@ body {
   margin: 60px 0 0 0;
 }
 
-/* ===========================SECTION 6============================ */
-.section-6__background {
+/* ==========================='TEAM' SECTION============================ */
+
+.team-section__background {
   margin: 3px 0 0 0;
 }
-.section-6 {
+
+.team-section {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
@@ -536,7 +538,7 @@ body {
   height: 17px;
 }
 
-.social-media__twitter-icon--hover:hover {
+.social-media__twitter-icon:hover {
   filter: invert(76%) sepia(73%) saturate(5381%) hue-rotate(30deg)
     brightness(95%) contrast(99%);
 }
@@ -546,12 +548,13 @@ body {
   height: 15px;
 }
 
-.social-media__facebook-icon--hover:hover {
+.social-media__facebook-icon:hover {
   filter: invert(37%) sepia(8%) saturate(3457%) hue-rotate(358deg)
     brightness(92%) contrast(102%);
 }
 
 /* ===========================FOOTER============================ */
+
 .footer {
   width: 100%;
   background-color: #464646;

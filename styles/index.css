@@ -55,7 +55,7 @@
   font-display: swap;
 }
 
-/* ============================================================== */
+/* ============================================================= */
 body {
   width: 100%;
   font-family: "montserrat";
@@ -117,39 +117,18 @@ body {
   cursor: pointer;
 }
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* POPRZEDNIO: */
-/* .menu__item--hover:hover {
-  color: #f89234;
-} */
-
-/* POPRAWIONO NA: */
-.menu__item:hover {
+.menu__item--hover:hover {
   color: #f89234;
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 /* ===========================SECTION 1============================ */
-
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* POPRZEDNIO: */
-/* .section-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 616px;
-  color: #ffffff;
-} */
-
-/* POPRAWIONO NA: */
-.title-section {
+.section-1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: 616px;
   color: #ffffff;
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 .title-container-left {
   min-width: 40%;
@@ -197,9 +176,7 @@ body {
   padding-top: 1%;
 }
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .ad-next-gen__background {
+.ad-next-gen__background {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -208,47 +185,23 @@ body {
   padding-top: 2%;
   background-color: #ffffff;
   border-radius: 4%;
-} */
-
-/* NA: */
-.ad-next-gen__image {
-  max-width: 88%;
-  border-radius: 5%;
-  background-color: #ffffff;
-  border: 20px solid #ffffff;
-  padding: 0 0 63px 0;
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+.ad-next-gen__image {
+  max-width: 95%;
+  border-radius: 1%;
+}
 
 /* ===========================SECTION 2============================ */
-
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .section-2__background {
-  background-color: black;
-} */
-
-/* NA: */
-.features-section__background {
+.section-2__background {
   background-color: black;
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .section-2 {
-  display: flex;
-  flex-direction: column;
-  color: #ffffff;
-} */
-
-/* NA: */
-.features-section {
+.section-2 {
   display: flex;
   flex-direction: column;
   color: #ffffff;
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 
 .nova-features-header {
   display: flex;
@@ -316,42 +269,16 @@ body {
 }
 
 /* ===========================SECTION 3============================ */
-
-/* ^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .section-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f9fafa;
-  max-width: 100%;
-} */
-
-/* NA: */
-.recommendation-section {
+.section-3 {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #f9fafa;
   max-width: 100%;
 }
-/* ^^^^^^^^^^^^^^^^^^^^ */
 
 /* ===========================SECTION 4============================ */
-
-/* ^^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .section-4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 670px;
-  margin-bottom: 10px;
-  padding: 6px 3px 6px 3px;
-} */
-
-/* NA: */
-.simple-and-beautiful-section {
+.section-4 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -359,7 +286,6 @@ body {
   margin-bottom: 10px;
   padding: 6px 3px 6px 3px;
 }
-/* ^^^^^^^^^^^^^^^^^^^^ */
 
 .imac-monitor {
   display: flex;
@@ -397,26 +323,13 @@ body {
 }
 
 /* ===========================SECTION 5============================ */
-
-/* ^^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .section-5 {
-  display: flex;
-  flex-direction: column;
-  background-color: #f8f9f9;
-  color: #333333;
-  max-width: 100%;
-} */
-
-/* NA: */
-.pricing-plan-section {
+.section-5 {
   display: flex;
   flex-direction: column;
   background-color: #f8f9f9;
   color: #333333;
   max-width: 100%;
 }
-/* ^^^^^^^^^^^^^^^^^^^^ */
 
 .prices-header {
   display: flex;
@@ -497,15 +410,12 @@ body {
 
 .price-offer__benefits {
   font-size: 14px;
+  font-weight: 600;
   text-align: center;
   display: block;
   width: 100%;
   margin: 31px 0 0 0;
   line-height: 18px;
-}
-
-.price-offer__benefits-li {
-  font-weight: 600;
 }
 
 .price-offer__button {
@@ -537,37 +447,16 @@ body {
 }
 
 /* ===========================SECTION 6============================ */
-
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .section-6__background {
-  margin: 3px 0 0 0;
-} */
-
-/* NA: */
-.team-section__background {
+.section-6__background {
   margin: 3px 0 0 0;
 }
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
-/* POPRAWIONO Z: */
-/* .section-6 {
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  color: #333333;
-} */
-
-/* NA: */
-.team-section {
+.section-6 {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
   color: #333333;
 }
 
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
 .team-header {
   display: flex;
   align-items: center;
